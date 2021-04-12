@@ -1,8 +1,6 @@
 import React, { memo } from 'react';
 import { hot } from 'react-hot-loader/root';
 
-import './App.scss';
-
 interface CounterProps {
     initialCount?: number;
 }
